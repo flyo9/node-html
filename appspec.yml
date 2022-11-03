@@ -1,5 +1,6 @@
+
 version: 0.0
-os: ubuntu
+os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
@@ -15,4 +16,5 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
+
 
